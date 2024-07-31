@@ -2,6 +2,7 @@
 import './App.css'
 // Importando Componente
 import PrimeiroComponente from './Componente/PrimeiroComponente'
+import RenderLista from './Componente/RenderLista'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       
       {/*Add componente*/}
       <PrimeiroComponente/>
+
+      {/*Add Lista*/}
+      <RenderLista/>
     </>
   )
 }
